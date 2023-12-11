@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="C:\Users\Mykola\Desktop\Проект\img\icons 1.png" type="image/x-icon" />
+    <title>Publishing house</title>
+</head>
+<body>
+    <header>
+       <a href="index.html" title="Our publications" id="logo">  Our publications </a> 
+            <span class="right">
+                <span class="contact"><a href="reg.html" title="Register"> Registration</a></span>
+                <span class="contact"><a href="auth.html" title="enter"> Exit</a></span>
+            </span>
+    </header>
+    <div class="page-wrapper2">  
+                    <div class="form-card2 flex-column">
+                        <div class="form-wrapper2">
+
+                            <h2 class="form-title2">
+                               Registration of our publications
+
+                            </h2>
+
+                            <form action="reg.php" method="post"> 
+
+                                <label class="form-label" for="name">Name :</label>
+                                <input class="form-input" type="text" id="name" name="name" placeholder="Enter a name" required>
+
+                                <label class="form-label" for="phone" required>Phone :</label>
+                                <input class="form-input" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+38 (_) __ __ __" required>
+
+                                <label class="form-label" for="gmail">Email :</label>
+                                <input class="form-input" type="text" id="gmail" name="gmail" placeholder="Enter your email" required>
+
+                                <label class="form-label" for="password">Password :</label>
+                                <input class="form-input" type="text" id="password" name="password" placeholder="Enter your password" required>
+
+                                <button class="form-submit-button" type="submit"> to register  </button>
+                            </form>
+                        </div>
+                    </div>
+                 </div>
+ 
+            <footer>
+        <p>&copy; 2023 all rights reserved  </p>
+    </footer>
+</body>
+</html>
